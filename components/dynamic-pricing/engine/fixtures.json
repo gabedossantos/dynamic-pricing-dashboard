@@ -1,0 +1,158 @@
+[
+  {
+    "price": 20,
+    "demand_low": 12000,
+    "demand_med": 17000,
+    "demand_high": 22000,
+    "vanWestendorp": {
+      "tooCheap": 15,
+      "cheap": 35,
+      "expensive": 100,
+      "tooExpensive": 180
+    }
+  },
+  {
+    "price": 35,
+    "demand_low": 10800,
+    "demand_med": 15000,
+    "demand_high": 18000,
+    "vanWestendorp": {
+      "tooCheap": 18,
+      "cheap": 45,
+      "expensive": 110,
+      "tooExpensive": 200
+    }
+  },
+  {
+    "price": 50,
+    "demand_low": 9800,
+    "demand_med": 13500,
+    "demand_high": 16000,
+    "vanWestendorp": {
+      "tooCheap": 20,
+      "cheap": 50,
+      "expensive": 115,
+      "tooExpensive": 205
+    }
+  },
+  {
+    "price": 65,
+    "demand_low": 9000,
+    "demand_med": 12000,
+    "demand_high": 14000,
+    "vanWestendorp": {
+      "tooCheap": 22,
+      "cheap": 55,
+      "expensive": 120,
+      "tooExpensive": 210
+    }
+  },
+  {
+    "price": 80,
+    "demand_low": 8200,
+    "demand_med": 10800,
+    "demand_high": 12500,
+    "vanWestendorp": {
+      "tooCheap": 25,
+      "cheap": 60,
+      "expensive": 125,
+      "tooExpensive": 215
+    }
+  },
+  {
+    "price": 95,
+    "demand_low": 7500,
+    "demand_med": 9600,
+    "demand_high": 11000,
+    "vanWestendorp": {
+      "tooCheap": 28,
+      "cheap": 65,
+      "expensive": 130,
+      "tooExpensive": 220
+    }
+  },
+  {
+    "price": 110,
+    "demand_low": 6800,
+    "demand_med": 8600,
+    "demand_high": 9800,
+    "vanWestendorp": {
+      "tooCheap": 30,
+      "cheap": 70,
+      "expensive": 135,
+      "tooExpensive": 225
+    }
+  },
+  {
+    "price": 125,
+    "demand_low": 6200,
+    "demand_med": 7700,
+    "demand_high": 8700,
+    "vanWestendorp": {
+      "tooCheap": 32,
+      "cheap": 75,
+      "expensive": 140,
+      "tooExpensive": 230
+    }
+  },
+  {
+    "price": 140,
+    "demand_low": 5600,
+    "demand_med": 6900,
+    "demand_high": 7700,
+    "vanWestendorp": {
+      "tooCheap": 34,
+      "cheap": 80,
+      "expensive": 145,
+      "tooExpensive": 235
+    }
+  },
+  {
+    "price": 155,
+    "demand_low": 5100,
+    "demand_med": 6200,
+    "demand_high": 6900,
+    "vanWestendorp": {
+      "tooCheap": 36,
+      "cheap": 85,
+      "expensive": 150,
+      "tooExpensive": 240
+    }
+  },
+  {
+    "price": 170,
+    "demand_low": 4700,
+    "demand_med": 5600,
+    "demand_high": 6200,
+    "vanWestendorp": {
+      "tooCheap": 38,
+      "cheap": 90,
+      "expensive": 155,
+      "tooExpensive": 245
+    }
+  },
+  {
+    "price": 185,
+    "demand_low": 4300,
+    "demand_med": 5100,
+    "demand_high": 5600,
+    "vanWestendorp": {
+      "tooCheap": 40,
+      "cheap": 95,
+      "expensive": 160,
+      "tooExpensive": 250
+    }
+  },
+  {
+    "price": 200,
+    "demand_low": 4000,
+    "demand_med": 4700,
+    "demand_high": 5100,
+    "vanWestendorp": {
+      "tooCheap": 42,
+      "cheap": 100,
+      "expensive": 165,
+      "tooExpensive": 255
+    }
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "target": "ES6",
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@gabe/components": ["../../packages/components/index.ts"],
+      "@/*": ["./*"],
+      "@gabe/utils": ["../../packages/utils/index.ts"],
+      "@gabe/types": ["../../packages/types/index.ts"],
+      "@gabe/ai-prompts": ["../../packages/ai-prompts/index.ts"],
+      "@/components/dynamic-pricing/*": ["components/dynamic-pricing/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
