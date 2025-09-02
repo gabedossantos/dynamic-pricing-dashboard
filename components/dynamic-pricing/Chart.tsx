@@ -2,13 +2,8 @@
 
 import { useEffect, useRef, useMemo, useState } from "react";
 import * as d3 from "d3";
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-  Badge,
-} from "@gabe/components";
+import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
+import { Badge } from "../ui/badge";
 import { TrendingUp, DollarSign } from "lucide-react";
 import type { ChartProps } from "./types";
 import { formatCurrency, formatUnits } from "./utils";
@@ -528,14 +523,14 @@ export function Chart({
 
   if (!prices.length || !revenue.length || !profit.length) {
     return (
-      <Card className="h-full bg-gradient-to-br from-background to-muted/20 border-0 shadow-lg">
+  <Card className="h-full bg-gradient-to-br from-background to-muted/20 border-0 shadow-lg">
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
             <TrendingUp className="w-5 h-5 text-blue-500" />
             Revenue & Profit Analysis
           </CardTitle>
         </CardHeader>
-        <CardContent className="flex items-center justify-center h-64">
+  <CardContent className="flex items-center justify-center h-64">
           <div className="text-center text-muted-foreground">
             <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900 dark:to-purple-900 flex items-center justify-center">
               <TrendingUp className="w-8 h-8 text-blue-500" />
@@ -549,7 +544,7 @@ export function Chart({
   }
 
   return (
-    <Card className="h-full bg-gradient-to-br from-background to-muted/20 border-0 shadow-lg">
+  <Card className="h-full bg-gradient-to-br from-background to-muted/20 border-0 shadow-lg">
       <CardHeader>
         <div className="flex items-center justify-between">
           <div>

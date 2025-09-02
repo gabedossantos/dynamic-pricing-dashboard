@@ -2,7 +2,8 @@
 
 import "./layout";
 import { useState, useEffect, useMemo } from "react";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@gabe/components";
+import { TestComponent } from "../../components/test";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "../../../components/ui/mytabs";
 import { LayoutShell } from "../../../components/dynamic-pricing/LayoutShell";
 import { Controls } from "../../../components/dynamic-pricing/Controls";
 import { Chart } from "../../../components/dynamic-pricing/Chart";
@@ -223,13 +224,13 @@ export default function DynamicPricingPage() {
         </div>
 
         {/* Bottom Tabs */}
-        <Tabs defaultValue="scenarios" className="w-full">
-          <TabsList className="grid w-full grid-cols-2">
+  <Tabs>
+          <TabsList>
             <TabsTrigger value="scenarios">Scenarios</TabsTrigger>
             <TabsTrigger value="about">About</TabsTrigger>
           </TabsList>
 
-          <TabsContent value="scenarios" className="mt-6">
+          <TabsContent value="scenarios">
             <ScenarioTable
               scenarios={scenarios}
               onLoadScenario={handleLoadScenario}
@@ -237,7 +238,7 @@ export default function DynamicPricingPage() {
             />
           </TabsContent>
 
-          <TabsContent value="about" className="mt-6">
+          <TabsContent value="about">
             <div className="prose prose-sm max-w-none dark:prose-invert">
               <h3>About the Dynamic Pricing Model</h3>
               <p>

@@ -1,14 +1,8 @@
 "use client";
 
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-  Badge,
-  Alert,
-  AlertDescription,
-} from "@gabe/components";
+import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
+import { Badge } from "../ui/badge";
+import { Alert, AlertDescription } from "../ui/alert";
 import { TrendingUp, Target, Users } from "lucide-react";
 import type { InsightsProps } from "./types";
 import { formatCurrency } from "./utils";
@@ -58,7 +52,7 @@ export function Insights({
         <div className="space-y-3">
           <h4 className="font-medium">Price Position</h4>
           <div className="flex items-center gap-2">
-            <Badge variant={isOptimal ? "default" : "secondary"}>
+            <Badge>
               {isOptimal ? "Within optimal range" : "Outside optimal range"}
             </Badge>
           </div>
